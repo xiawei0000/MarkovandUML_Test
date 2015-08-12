@@ -1,0 +1,20 @@
+digraph markow{
+size="300,300"; 
+node [style="filled", color="black", fillcolor="chartreuse"];
+Enter;
+node [shape=doublecircle];
+Exit;
+node [shape=circle];
+A;
+B;
+C;
+Enter->A[label="a  :  1.000000"];
+A->B[label="b  :  0.500000"];
+A->C[label="c  :  0.500000"];
+B->B[label="b  :  0.500000"];
+B->C[label="c  :  0.250000"];
+B->Exit[label="e  :  0.250000"];
+C->A[label="a  :  0.250000"];
+C->Exit[label="e  :  0.500000"];
+C->Exit[label="f  :  0.250000"];
+}

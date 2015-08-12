@@ -1,0 +1,12 @@
+Enter
+Exit
+Enter   A     a  1
+A  B   b   0.5 
+A  C  	c  0.5 
+B  B 	b  	0.5
+B  C 	c 0.25
+B  Exit e 0.25
+C  A  	a 0.25
+C  Exit  e 0.5
+C  Exit f 0.25
+ 

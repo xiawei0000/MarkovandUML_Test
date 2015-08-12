@@ -1,0 +1,29 @@
+﻿生成启动时间为 7/8/2015 8:23:59 PM。
+     1>项目“D:\360\项目\UML\ftheword\ftheword\ftheword.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Markov.cpp readmaer.cpp TestCasesGenerater.cpp
+         TestCasesGenerater.cpp
+     1>TestCasesGenerater.cpp(68): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>TestCasesGenerater.cpp(96): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         readmaer.cpp
+         Markov.cpp
+     1>Markov.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : 参见“sprintf”的声明
+     1>Markov.cpp(65): warning C4101: “e”: 未引用的局部变量
+     1>Markov.cpp(152): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>Markov.cpp(155): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Markov.cpp(156): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>Markov.cpp(278): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>Markov.cpp(288): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>Markov.cpp(298): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\360\项目\UML\ftheword\x64\Debug\ftheword.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\360\项目\UML\ftheword\ftheword" myget_discrimination.lib gpu.lib libcovrt.lib libemlrt.lib libeng.lib libfixedpoint.lib libmat.lib libmex.lib libmwblas.lib libmwblascompat32.lib libmwbwpackc.lib libmwbwpackctbb.lib libmwbwunpackc.lib libmwbwunpackctbb.lib libmwcascadeClassifier.lib libmwcgir_construct.lib libmwcoderprofile.lib libmwcoder_connectivity_comm.lib libmwcoder_connectivity_memunit.lib libmwComputeMetric.lib libmwdetectBRISK.lib libmwdetectFAST.lib libmwdetectMser.lib libmwdisparityBM.lib libmwdisparitySGBM.lib libmwedgethinning.lib libmwedgethinning_tbb.lib libmwextractBRISK.lib libmwextractFreak.lib libmwextractSurf.lib libmwfastHessianDetector.lib libmwforegroundDetector.lib libmwgetnumcores.lib libmwgrayto16.lib libmwgrayto8.lib libmwHOGDescriptor.lib libmwimfilter.lib libmwimhist_st.lib libmwimreconstruct.lib libmwimregionalmax.lib libmwint16touint16.lib libmwint32touint32.lib libmwint8touint8.lib libmwippfilter.lib libmwippgeotrans.lib libmwippreconstruct.lib libmwlapack.lib libmwmathutil.lib libmwmorphop_binary.lib libmwmorphop_binary_tbb.lib libmwmorphop_flat.lib libmwmorphop_flat_tbb.lib libmwmorphop_ipp.lib libmwmorphop_nonflat.lib libmwmorphop_nonflat_tbb.lib libmwmorphop_packed.lib libmwpointTracker.lib libmwremap.lib libmwremaptbb.lib libmwrtiostreamutils.lib libmwservices.lib libmwsimulink.lib libmwslexec_parallel.lib libmwslexec_simbridge.lib libmwsl_fileio.lib libmwsl_log_load_blocks.lib libmwsl_sfcn_cov_bridge.lib libmwsl_solver_rtw.lib libmwtbbhist.lib libmwuint16toint16.lib libmwxilcomms.lib libmwxilcomms_rtiostream.lib libmwxilservice.lib libmwxilutils.lib libmwxilutils_sl.lib libmx.lib libut.lib mclbase.lib mclcommain.lib mclmcr.lib mclmcrrt.lib mclxlmain.lib ne_mli.lib ne_rtl.lib ocrutils.lib physmod_common_foundation_core_util.lib rtwcg.lib sf_runtime.lib SimulinkBlock.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\360\项目\UML\ftheword\x64\Debug\ftheword.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\360\项目\UML\ftheword\x64\Debug\ftheword.lib" /MACHINE:X64 x64\Debug\Markov.obj
+         x64\Debug\readmaer.obj
+         x64\Debug\TestCasesGenerater.obj
+         ftheword.vcxproj -> D:\360\项目\UML\ftheword\x64\Debug\ftheword.exe
+     1>已完成生成项目“D:\360\项目\UML\ftheword\ftheword\ftheword.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.72
