@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>C:\Program Files %28x86%29\Graphviz2.38\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Program Files (x86)\Graphviz2.38\include;C:\Program Files %28x86%29\Graphviz2.38\include\graphviz;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Graphviz2.38\lib;C:\Program Files %28x86%29\Graphviz2.38\lib\debug\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>ast.lib;cdt.lib;cgraph.lib;circogen.lib;dot.lib;dotgen.lib;expr.lib;fdpgen.lib;gd.lib;graph.lib;gts.lib;gvc.lib;gvortho.lib;gvpack.lib;gvplugin_core.lib;gvplugin_dot_layout.lib;gvplugin_gd.lib;gvplugin_gdiplus.lib;gvplugin_neato_layout.lib;gvplugin_pango.lib;gvprlib.lib;ingraphs.lib;minglelib.lib;neatogen.lib;osage.lib;patchwork.lib;Pathplan.lib;rbtree.lib;sfdp.lib;sfio.lib;sparse.lib;topfish.lib;twopigen.lib;vmalloc.lib;vpsc.lib;xdot.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

@@ -1,0 +1,6 @@
+libmyadd2Initialize
+libmyadd2InitializeWithHandlers
+libmyadd2Terminate
+libmyadd2PrintStackTrace
+libmyadd2GetMcrID
+mlxMyadd2

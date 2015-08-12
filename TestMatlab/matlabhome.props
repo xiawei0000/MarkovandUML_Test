@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\ProgramFilesFORCS\MatLab\extern\include;D:\ProgramFilesFORCS\MatLab\extern\include\win64;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\ProgramFilesFORCS\MatLab\extern\lib\win64\microsoft;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>D:\ProgramFilesFORCS\MatLab\bin\win64;D:\ProgramFilesFORCS\MatLab\runtime\win64;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>libemlrt.lib;libeng.lib;libfixedpoint.lib;libmat.lib;libmex.lib;libmwblas.lib;libmwblascompat32.lib;libmwcgir_construct.lib;libmwlapack.lib;libmwmathutil.lib;libmwrtiostreamutils.lib;libmwservices.lib;libmwsilpilprofiling.lib;libmwsl_fileio.lib;libmwsl_solver_rtw.lib;libmx.lib;libut.lib;mclbase.lib;mclcommain.lib;mclmcr.lib;mclmcrrt.lib;mclxlmain.lib;ne_mli.lib;ne_rtl.lib;physmod_foundation_util.lib;rtwcg.lib;SimulinkBlock.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
